@@ -21,6 +21,16 @@
 	<Item Name="Cron.Quartz.ctl" Type="Class Private Data" URL="Cron.Quartz.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
+	<Item Name="onComputeIntervals.vi" Type="VI" URL="../onComputeIntervals.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;V!!!!$!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!&amp;E"5!!9/4G6Y&gt;#"09W.V=G6O9W5!!!1!!!!_1(!!(A!!*!ZP='6O1X*P&lt;CZM&gt;GRJ9B.$=G^O,F&amp;V98*U?CZM&gt;G.M98.T!!!01X*P&lt;CZ2&gt;7&amp;S&gt;(IA&lt;X6U!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!%E"5!!9+6'FN:3"4&gt;'&amp;N=!!!&amp;%!Q`````QJ&amp;?("S:8.T;7^O!!!_1(!!(A!!*!ZP='6O1X*P&lt;CZM&gt;GRJ9B.$=G^O,F&amp;V98*U?CZM&gt;G.M98.T!!!/1X*P&lt;CZ2&gt;7&amp;S&gt;(IA;7Y!!&amp;1!]!!-!!-!"!!&amp;!!9!"1!&amp;!!5!"1!(!!A!#1!+!Q!!?!!!$1A!!!E!!!!!!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!)!!!!%!!!!AA!!!#1!!!!!!%!#Q!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">3</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1074274832</Property>
+		<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
+	</Item>
 	<Item Name="onValidateExpression.vi" Type="VI" URL="../onValidateExpression.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;X!!!!$!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!$%!B"H:B&lt;'FE0Q!!(E!Q`````R2797RJ:'&amp;U:71A28BQ=G6T=WFP&lt;A!!0E"Q!"Y!!#1/&lt;X"F&lt;E.S&lt;WYO&lt;(:M;7)41X*P&lt;CZ2&gt;7&amp;S&gt;(IO&lt;(:D&lt;'&amp;T=Q!!$U.S&lt;WYO586B=H2[)'^V&gt;!!%!!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!51$$`````#E6Y=(*F=X.J&lt;WY!!$Z!=!!?!!!E$G^Q:7Z$=G^O,GRW&lt;'FC%U.S&lt;WYO586B=H2[,GRW9WRB=X-!!!Z$=G^O,F&amp;V98*U?C"J&lt;A!!6!$Q!!Q!!Q!%!!5!"A!(!!=!"Q!(!!A!"Q!*!!I$!!"Y!!!.#!!!#1!!!!E!!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!##!!!!*)!!!!!!1!,!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
