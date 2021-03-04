@@ -4,6 +4,11 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">318799872</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Property Name="NI.SortType" Type="Int">3</Property>
+	<Item Name="Cron Next (Quartz-compatible).vi" Type="VI" URL="../Cron Next (Quartz-compatible).vi"/>
+	<Item Name="Cron Next (Unix-compatible).vi" Type="VI" URL="../Cron Next (Unix-compatible).vi"/>
+	<Item Name="Cron TimeUnitNextJob.vi" Type="VI" URL="../Cron TimeUnitNextJob.vi"/>
 	<Item Name="Cron.lvclass" Type="LVClass" URL="../Cron/Cron.lvclass"/>
 	<Item Name="Cron.Quartz.lvclass" Type="LVClass" URL="../Cron.Quartz/Cron.Quartz.lvclass"/>
+	<Item Name="Cron.Unix.lvclass" Type="LVClass" URL="../Cron.Unix/Cron.Unix.lvclass"/>
 </Library>
