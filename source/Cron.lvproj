@@ -13,21 +13,24 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Unit Tests" Type="Folder">
-			<Item Name="Test Expression.vi" Type="VI" URL="../../unittests/Test Expression.vi"/>
-			<Item Name="0001_FireAtNoonEveryDay.vi" Type="VI" URL="../../unittests/0001_FireAtNoonEveryDay.vi"/>
-			<Item Name="0002_FireAt1015EveryDay.vi" Type="VI" URL="../../unittests/0002_FireAt1015EveryDay.vi"/>
-			<Item Name="0003_FireAt1015SpecificYear.vi" Type="VI" URL="../../unittests/0003_FireAt1015SpecificYear.vi"/>
-			<Item Name="0004_FireEveryFiveMinutesInSpecificHour.vi" Type="VI" URL="../../unittests/0004_FireEveryFiveMinutesInSpecificHour.vi"/>
-			<Item Name="0005_FireAtSpecificMinutesEveryWednesday.vi" Type="VI" URL="../../unittests/0005_FireAtSpecificMinutesEveryWednesday.vi"/>
-			<Item Name="0006_FireAtSpecificTimeOnSpecificWeekdays.vi" Type="VI" URL="../../unittests/0006_FireAtSpecificTimeOnSpecificWeekdays.vi"/>
-			<Item Name="0007_FireEveryFifteenthfMonth.vi" Type="VI" URL="../../unittests/0007_FireEveryFifteenthfMonth.vi"/>
-			<Item Name="0008_FireEveryLastDayOfMonth.vi" Type="VI" URL="../../unittests/0008_FireEveryLastDayOfMonth.vi"/>
-			<Item Name="0009_FireEverySecondLastDayOfMonth.vi" Type="VI" URL="../../unittests/0009_FireEverySecondLastDayOfMonth.vi"/>
-			<Item Name="0010_FireEveryLastFridayOfMonth.vi" Type="VI" URL="../../unittests/0010_FireEveryLastFridayOfMonth.vi"/>
-			<Item Name="0011_FireEveryLastWednesdayInYearRange.vi" Type="VI" URL="../../unittests/0011_FireEveryLastWednesdayInYearRange.vi"/>
-			<Item Name="0012_FireEveryThirdSaturday.vi" Type="VI" URL="../../unittests/0012_FireEveryThirdSaturday.vi"/>
-			<Item Name="0013_FireEveryFiveDaysOfMonth.vi" Type="VI" URL="../../unittests/0013_FireEveryFiveDaysOfMonth.vi"/>
-			<Item Name="0014_FireEveryNov11thAt111111.vi" Type="VI" URL="../../unittests/0014_FireEveryNov11thAt111111.vi"/>
+			<Item Name="Quartz-compatible" Type="Folder">
+				<Item Name="Run All Quartz-compatible Expression Tests.vi" Type="VI" URL="../../unittests/Run All Quartz-compatible Expression Tests.vi"/>
+				<Item Name="0001_FireAtNoonEveryDay.vi" Type="VI" URL="../../unittests/0001_FireAtNoonEveryDay.vi"/>
+				<Item Name="0002_FireAt1015EveryDay.vi" Type="VI" URL="../../unittests/0002_FireAt1015EveryDay.vi"/>
+				<Item Name="0003_FireAt1015SpecificYear.vi" Type="VI" URL="../../unittests/0003_FireAt1015SpecificYear.vi"/>
+				<Item Name="0004_FireEveryFiveMinutesInSpecificHour.vi" Type="VI" URL="../../unittests/0004_FireEveryFiveMinutesInSpecificHour.vi"/>
+				<Item Name="0005_FireAtSpecificMinutesEveryWednesday.vi" Type="VI" URL="../../unittests/0005_FireAtSpecificMinutesEveryWednesday.vi"/>
+				<Item Name="0006_FireAtSpecificTimeOnSpecificWeekdays.vi" Type="VI" URL="../../unittests/0006_FireAtSpecificTimeOnSpecificWeekdays.vi"/>
+				<Item Name="0007_FireEveryFifteenthfMonth.vi" Type="VI" URL="../../unittests/0007_FireEveryFifteenthfMonth.vi"/>
+				<Item Name="0008_FireEveryLastDayOfMonth.vi" Type="VI" URL="../../unittests/0008_FireEveryLastDayOfMonth.vi"/>
+				<Item Name="0009_FireEverySecondLastDayOfMonth.vi" Type="VI" URL="../../unittests/0009_FireEverySecondLastDayOfMonth.vi"/>
+				<Item Name="0010_FireEveryLastFridayOfMonth.vi" Type="VI" URL="../../unittests/0010_FireEveryLastFridayOfMonth.vi"/>
+				<Item Name="0011_FireEveryLastWednesdayInYearRange.vi" Type="VI" URL="../../unittests/0011_FireEveryLastWednesdayInYearRange.vi"/>
+				<Item Name="0012_FireEveryThirdSaturday.vi" Type="VI" URL="../../unittests/0012_FireEveryThirdSaturday.vi"/>
+				<Item Name="0013_FireEveryFiveDaysOfMonth.vi" Type="VI" URL="../../unittests/0013_FireEveryFiveDaysOfMonth.vi"/>
+				<Item Name="0014_FireEveryNov11thAt111111.vi" Type="VI" URL="../../unittests/0014_FireEveryNov11thAt111111.vi"/>
+			</Item>
+			<Item Name="Run All Tests.vi" Type="VI" URL="../../unittests/Run All Tests.vi"/>
 		</Item>
 		<Item Name="openCron.lvlib" Type="Library" URL="../openCron.lvlib"/>
 		<Item Name="Tree -- Cron Library.vi" Type="VI" URL="../Examples/Tree -- Cron Library.vi"/>

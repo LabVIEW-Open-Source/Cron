@@ -5,11 +5,18 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
+	<Item Name="Factory" Type="Folder">
+		<Item Name="Cron.Quartz Object.vi" Type="VI" URL="../Cron.Quartz Object.vi"/>
+		<Item Name="Cron.Unix Object.vi" Type="VI" URL="../Cron.Unix Object.vi"/>
+		<Item Name="Cron.Jenkins Object.vi" Type="VI" URL="../Cron.Jenkins Object.vi"/>
+	</Item>
 	<Item Name="Cron Next (Quartz-compatible).vi" Type="VI" URL="../Cron Next (Quartz-compatible).vi"/>
 	<Item Name="Cron Next (Unix-compatible).vi" Type="VI" URL="../Cron Next (Unix-compatible).vi"/>
+	<Item Name="Cron Next (Jenkins-compatible).vi" Type="VI" URL="../Cron Next (Jenkins-compatible).vi"/>
 	<Item Name="Cron TimeUnitNextJob.vi" Type="VI" URL="../Cron TimeUnitNextJob.vi"/>
 	<Item Name="Cron.lvclass" Type="LVClass" URL="../Cron/Cron.lvclass"/>
 	<Item Name="Cron.Quartz.lvclass" Type="LVClass" URL="../Cron.Quartz/Cron.Quartz.lvclass"/>
 	<Item Name="Cron.Unix.lvclass" Type="LVClass" URL="../Cron.Unix/Cron.Unix.lvclass"/>
+	<Item Name="Cron.Jenkins.lvclass" Type="LVClass" URL="../Cron.Jenkins/Cron.Jenkins.lvclass"/>
 	<Item Name="Job.lvclass" Type="LVClass" URL="../Job/Job.lvclass"/>
 </Library>
