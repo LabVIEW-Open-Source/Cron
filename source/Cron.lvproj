@@ -47,9 +47,28 @@
 				<Item Name="1013_FireEveryFiveDaysOfMonth.vi" Type="VI" URL="../../unittests/Unix/1013_FireEveryFiveDaysOfMonth.vi"/>
 				<Item Name="1014_FireEveryNov11thAt111111.vi" Type="VI" URL="../../unittests/Unix/1014_FireEveryNov11thAt111111.vi"/>
 			</Item>
+			<Item Name="Jenkins-compatible" Type="Folder">
+				<Item Name="2001_FireAtNoonEveryDay.vi" Type="VI" URL="../../unittests/Jenkins/2001_FireAtNoonEveryDay.vi"/>
+				<Item Name="2002_FireAt1015EveryDay.vi" Type="VI" URL="../../unittests/Jenkins/2002_FireAt1015EveryDay.vi"/>
+				<Item Name="2003_FireAt1015SpecificYear.vi" Type="VI" URL="../../unittests/Jenkins/2003_FireAt1015SpecificYear.vi"/>
+				<Item Name="2004_FireEveryFiveMinutesInSpecificHour.vi" Type="VI" URL="../../unittests/Jenkins/2004_FireEveryFiveMinutesInSpecificHour.vi"/>
+				<Item Name="2005_FireAtSpecificMinutesEveryWednesday.vi" Type="VI" URL="../../unittests/Jenkins/2005_FireAtSpecificMinutesEveryWednesday.vi"/>
+				<Item Name="2006_FireAtSpecificTimeOnSpecificWeekdays.vi" Type="VI" URL="../../unittests/Jenkins/2006_FireAtSpecificTimeOnSpecificWeekdays.vi"/>
+				<Item Name="2007_FireEveryFifteenthfMonth.vi" Type="VI" URL="../../unittests/Jenkins/2007_FireEveryFifteenthfMonth.vi"/>
+				<Item Name="2008_FireEveryLastDayOfMonth.vi" Type="VI" URL="../../unittests/Jenkins/2008_FireEveryLastDayOfMonth.vi"/>
+				<Item Name="2009_FireEverySecondLastDayOfMonth.vi" Type="VI" URL="../../unittests/Jenkins/2009_FireEverySecondLastDayOfMonth.vi"/>
+				<Item Name="2010_FireEveryLastFridayOfMonth.vi" Type="VI" URL="../../unittests/Jenkins/2010_FireEveryLastFridayOfMonth.vi"/>
+				<Item Name="2011_FireEveryLastWednesdayInYearRange.vi" Type="VI" URL="../../unittests/Jenkins/2011_FireEveryLastWednesdayInYearRange.vi"/>
+				<Item Name="2012_FireEveryThirdSaturday.vi" Type="VI" URL="../../unittests/Jenkins/2012_FireEveryThirdSaturday.vi"/>
+				<Item Name="2013_FireEveryFiveDaysOfMonth.vi" Type="VI" URL="../../unittests/Jenkins/2013_FireEveryFiveDaysOfMonth.vi"/>
+				<Item Name="2014_FireEveryNov11thAt111111.vi" Type="VI" URL="../../unittests/Jenkins/2014_FireEveryNov11thAt111111.vi"/>
+				<Item Name="2015_HashSupport.vi" Type="VI" URL="../../unittests/Jenkins/2015_HashSupport.vi"/>
+				<Item Name="Run All Jenkins-compatible Expression Tests.vi" Type="VI" URL="../../unittests/Jenkins/Run All Jenkins-compatible Expression Tests.vi"/>
+			</Item>
 			<Item Name="Run All Tests.vi" Type="VI" URL="../../unittests/Run All Tests.vi"/>
 		</Item>
 		<Item Name="openCron.lvlib" Type="Library" URL="../openCron.lvlib"/>
+		<Item Name="openCronJob.lvlib" Type="Library" URL="../openCronJob.lvlib"/>
 		<Item Name="Tree -- Cron Library.vi" Type="VI" URL="../Examples/Tree -- Cron Library.vi"/>
 		<Item Name="Cron Basic Scheduler Template.vi" Type="VI" URL="../Examples/Cron Basic Scheduler Template.vi"/>
 		<Item Name="Cron Basic Job Execution.vi" Type="VI" URL="../Examples/Cron Basic Job Execution.vi"/>

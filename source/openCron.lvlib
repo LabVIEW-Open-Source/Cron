@@ -18,5 +18,4 @@
 	<Item Name="Cron.Quartz.lvclass" Type="LVClass" URL="../Cron.Quartz/Cron.Quartz.lvclass"/>
 	<Item Name="Cron.Unix.lvclass" Type="LVClass" URL="../Cron.Unix/Cron.Unix.lvclass"/>
 	<Item Name="Cron.Jenkins.lvclass" Type="LVClass" URL="../Cron.Jenkins/Cron.Jenkins.lvclass"/>
-	<Item Name="Job.lvclass" Type="LVClass" URL="../Job/Job.lvclass"/>
 </Library>
