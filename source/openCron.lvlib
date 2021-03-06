@@ -13,7 +13,7 @@
 	<Item Name="Cron Next (Quartz-compatible).vi" Type="VI" URL="../Cron Next (Quartz-compatible).vi"/>
 	<Item Name="Cron Next (Unix-compatible).vi" Type="VI" URL="../Cron Next (Unix-compatible).vi"/>
 	<Item Name="Cron Next (Jenkins-compatible).vi" Type="VI" URL="../Cron Next (Jenkins-compatible).vi"/>
-	<Item Name="Cron TimeUnitNextJob.vi" Type="VI" URL="../Cron TimeUnitNextJob.vi"/>
+	<Item Name="Cron TimeUnitNextTrigger.vi" Type="VI" URL="../Cron TimeUnitNextTrigger.vi"/>
 	<Item Name="Cron.lvclass" Type="LVClass" URL="../Cron/Cron.lvclass"/>
 	<Item Name="Cron.Quartz.lvclass" Type="LVClass" URL="../Cron.Quartz/Cron.Quartz.lvclass"/>
 	<Item Name="Cron.Unix.lvclass" Type="LVClass" URL="../Cron.Unix/Cron.Unix.lvclass"/>
