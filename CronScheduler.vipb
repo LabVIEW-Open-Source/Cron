@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2018-06-04 19:50:03" Modified_Date="2021-03-07 11:15:31" Creator="Francois Normandin" Comments="" ID="b640fee22fd865d6a6c78aa267f90d67">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2018-06-04 19:50:03" Modified_Date="2021-03-07 11:54:47" Creator="Francois Normandin" Comments="" ID="69cf3361fd8aa99f59a7d4720b9ecde0">
   <Library_General_Settings>
     <Package_File_Name>LabVIEW_Open_Source_lib_Cron_Scheduler</Package_File_Name>
-    <Library_Version>1.0.0.7</Library_Version>
+    <Library_Version>1.0.0.9</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>source</Library_Source_Folder>
     <Library_Output_Folder>_builtpackages</Library_Output_Folder>
@@ -104,7 +104,7 @@ H 0 * * ? * (Fire hourly but minute is computed from hash of jobName) -- jenkins
       </File_Menu>
       <Tools_Menu>
         <LLB>false</LLB>
-        <Preserve_Hierarchy>true</Preserve_Hierarchy>
+        <Preserve_Hierarchy>false</Preserve_Hierarchy>
         <Path>&lt;project&gt;\LabVIEW Open Source Project\CronScheduler</Path>
       </Tools_Menu>
       <Help_Menu>
@@ -544,7 +544,21 @@ H 0 * * ? * (Fire hourly but minute is computed from hash of jobName) -- jenkins
         <Path>source\Job\JobDetailMap.Add KeyValue.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>FEF8D3AE5B6136580388C1C4A2902835</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Cron TimeUnitNextTrigger.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>6</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>source\Cron TimeUnitNextTrigger.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>75889CEEA159456EE0F97BD9B3F90645</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -677,7 +691,7 @@ H 0 * * ? * (Fire hourly but minute is computed from hash of jobName) -- jenkins
         <Path>source\Cron.Unix Object.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>ED98F12E3FEC1B99F8416803EBAD72AE</GUID>
+      <GUID>A05B4D3CB21AAEB265A44E4751D39375</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -726,7 +740,7 @@ H 0 * * ? * (Fire hourly but minute is computed from hash of jobName) -- jenkins
         <Path>source\Examples\template_Job_Minimal.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B4BD586408885D7916EBD897C84A901A</GUID>
+      <GUID>505BD4396B3023C5EC08CF570C986043</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
