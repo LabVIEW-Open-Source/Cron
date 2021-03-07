@@ -6,4 +6,5 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Job.lvclass" Type="LVClass" URL="../Job/Job.lvclass"/>
 	<Item Name="Job.StaticVIRef.lvclass" Type="LVClass" URL="../Job.StaticVIRef/Job.StaticVIRef.lvclass"/>
+	<Item Name="JobReport.lvclass" Type="LVClass" URL="../JobReport/JobReport.lvclass"/>
 </Library>
