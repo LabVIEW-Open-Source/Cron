@@ -68,11 +68,12 @@
 			<Item Name="Run All Tests.vi" Type="VI" URL="../../unittests/Run All Tests.vi"/>
 		</Item>
 		<Item Name="Tools Menu" Type="Folder">
+			<Item Name="JobCreatorData -- cluster.ctl" Type="VI" URL="../Tools Menu/JobCreatorData -- cluster.ctl"/>
 			<Item Name="Create Job VI from Template.vi" Type="VI" URL="../Tools Menu/Create Job VI from Template.vi"/>
 		</Item>
 		<Item Name="templates" Type="Folder">
-			<Item Name="template_Job_Static_VI_Reference.vi" Type="VI" URL="../Examples/template_Job_Static_VI_Reference.vi"/>
-			<Item Name="template_Job_Minimal.vi" Type="VI" URL="../Examples/template_Job_Minimal.vi"/>
+			<Item Name="template_Job_Static_VI_Reference.vi" Type="VI" URL="../Templates/template_Job_Static_VI_Reference.vi"/>
+			<Item Name="template_Job_Minimal.vi" Type="VI" URL="../Templates/template_Job_Minimal.vi"/>
 		</Item>
 		<Item Name="openCron.lvlib" Type="Library" URL="../openCron.lvlib"/>
 		<Item Name="openCronJob.lvlib" Type="Library" URL="../openCronJob.lvlib"/>
