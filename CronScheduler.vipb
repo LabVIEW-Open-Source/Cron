@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2018-06-04 19:50:03" Modified_Date="2021-03-11 19:19:01" Creator="Francois Normandin" Comments="" ID="31357aa9490fe86e2aa3c9fe018d3581">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2018-06-04 19:50:03" Modified_Date="2021-03-11 20:05:05" Creator="Francois Normandin" Comments="" ID="a697f9822f217186ac0025e9c96a8a11">
   <Library_General_Settings>
     <Package_File_Name>LabVIEW_Open_Source_lib_Cron_Scheduler</Package_File_Name>
-    <Library_Version>1.1.0.12</Library_Version>
+    <Library_Version>1.1.0.14</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>source</Library_Source_Folder>
     <Library_Output_Folder>_builtpackages</Library_Output_Folder>
@@ -590,7 +590,7 @@ H 0 * * ? * (Fire hourly but minute is computed from hash of jobName) -- jenkins
         <Path>source\JobReport\Read Map.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9910AF26450E717775962788810B889D</GUID>
+      <GUID>9A92D20F3B3C3A5C910459054CBD0708</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -723,7 +723,7 @@ H 0 * * ? * (Fire hourly but minute is computed from hash of jobName) -- jenkins
         <Path>source\Cron\Create Cron Expression.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5C686ADC2E1DF8E6CAB3C952BA1DB29D</GUID>
+      <GUID>6267B04D74C3336008692AF57E5DF9C1</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -772,7 +772,7 @@ H 0 * * ? * (Fire hourly but minute is computed from hash of jobName) -- jenkins
         <Path>source\Templates\template_Job_Minimal.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3DC05AE4B12D5130B9166AE4C02A5569</GUID>
+      <GUID>E1C71ABBCA8C6C50073DB0A9F53D08D9</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
