@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2018-06-04 19:50:03" Modified_Date="2021-03-07 12:57:18" Creator="Francois Normandin" Comments="" ID="1a4eb0c78c512af6c996a69464ab8897">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2018-06-04 19:50:03" Modified_Date="2021-03-11 19:19:01" Creator="Francois Normandin" Comments="" ID="31357aa9490fe86e2aa3c9fe018d3581">
   <Library_General_Settings>
     <Package_File_Name>LabVIEW_Open_Source_lib_Cron_Scheduler</Package_File_Name>
-    <Library_Version>1.0.0.11</Library_Version>
+    <Library_Version>1.1.0.12</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>source</Library_Source_Folder>
     <Library_Output_Folder>_builtpackages</Library_Output_Folder>
@@ -64,9 +64,13 @@ H 0 * * ? * (Fire hourly but minute is computed from hash of jobName) -- jenkins
       <Copyright/>
       <Packager>Francois Normandin</Packager>
       <URL>https://github.com/LabVIEW-Open-Source/Cron</URL>
-      <Release_Notes>- Initial release of Cron Scheduler library with basic Cron Expression parsing for Quartz-compatible expressions, Jenkins compatible load distributed expression and Unix legacy expressions.
-- Job base class (overridable with Job.specific)
-- Job.StaticVIRef (launch any VI as a job)</Release_Notes>
+      <Release_Notes>[Fix: 6] Exposed the JobReport's Map in the palette
+[Feature: 7] Added a Job Started event to get notification from process that job was started )includes job name, GUID and start time)
+[Feature: 8] Added a verbose status update
+[Feature: 9] Check Abort now can set the error output as Warning (default) or Error on demand.
+[Fix: 10] publication of job event is done also on abort or other error.
+[Feature: 11] getExceptionMessage now retrieves the default error message if no error code provided by Job override
+[Feature: 12] Job Creation Tool now will search for template folder</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -505,20 +509,6 @@ H 0 * * ? * (Fire hourly but minute is computed from hash of jobName) -- jenkins
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Read Job Report.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>4</Row>
-          <Column>6</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>source\JobReport\Read Job Report.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
         <NameSub_Menu_Name>check Abort (ActiveJob).vi</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
@@ -558,7 +548,49 @@ H 0 * * ? * (Fire hourly but minute is computed from hash of jobName) -- jenkins
         <Path>source\Cron TimeUnitNextTrigger.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>05C1D06313E19C082A6AE499E7125502</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Read Job Report.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>4</Row>
+          <Column>7</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>source\JobReport\Read Job Report.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>publishJobUpdate.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>4</Row>
+          <Column>6</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>source\Job\publishJobUpdate.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Read Map.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>4</Row>
+          <Column>8</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>source\JobReport\Read Map.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>9910AF26450E717775962788810B889D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -579,20 +611,6 @@ H 0 * * ? * (Fire hourly but minute is computed from hash of jobName) -- jenkins
         <Synchronyze_with_Directory>false</Synchronyze_with_Directory>
         <Synchronize_Directory_Path/>
       </Synchronization_Info>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Create Cron Job.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>3</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>source\Cron\Create Cron Job.vi</Path>
-        <VI_Title/>
-      </Items_Data>
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
@@ -691,7 +709,21 @@ H 0 * * ? * (Fire hourly but minute is computed from hash of jobName) -- jenkins
         <Path>source\Cron.Unix Object.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3B61B86FA5EF0AA732EF8243DD6EDDAC</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Create Cron Expression.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>3</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>source\Cron\Create Cron Expression.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>5C686ADC2E1DF8E6CAB3C952BA1DB29D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -723,7 +755,7 @@ H 0 * * ? * (Fire hourly but minute is computed from hash of jobName) -- jenkins
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>source\Examples\template_Job_Static_VI_Reference.vi</Path>
+        <Path>source\Templates\template_Job_Static_VI_Reference.vi</Path>
         <VI_Title>Basic Job Template</VI_Title>
       </Items_Data>
       <Items_Data>
@@ -737,10 +769,10 @@ H 0 * * ? * (Fire hourly but minute is computed from hash of jobName) -- jenkins
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>source\Examples\template_Job_Minimal.vi</Path>
+        <Path>source\Templates\template_Job_Minimal.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C8D9071E65C4A72BF547B26348DC7BC3</GUID>
+      <GUID>3DC05AE4B12D5130B9166AE4C02A5569</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
